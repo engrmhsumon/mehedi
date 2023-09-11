@@ -8,7 +8,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
 
 }
 .pic{
@@ -21,24 +21,24 @@ nav{
 }
 
 .li1{
-    padding: 20px 50px;
+    padding: 10px 30px;
     list-style: none;
     cursor: pointer;
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
+.li1>a{text-decoration:none}
+.li1>a{color: white;}
 
 .li1:hover{
-    background-color: rgb(237, 233, 241);
+    background-color: rgb(54, 14, 233);
     transition: .4s ease;
 }
 
 
 
 .Search{
-    padding: 10px;
-    border-radius: 30px;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 
